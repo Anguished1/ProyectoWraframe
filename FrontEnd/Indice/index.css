@@ -1,0 +1,108 @@
+body {
+    background-color: #A0A0A0;
+    font-style: comic;
+}
+
+#box {}
+
+
+/*
+Contenido del navegador
+*/
+
+nav#box {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+}
+
+
+ul.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+li.nav-bar {
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+}
+
+/*
+--------------------------
+*/
+
+/*
+Contenido del divbox (main)
+*/
+
+.contentBox {
+    display: flex;
+    flex-direction: row;
+}
+
+/*
+Left Box
+*/
+
+.listBox {
+    width: 100%;
+   
+}
+
+@media (min-width:768px) {
+
+    .listBox {
+        width: 60%;
+        
+    }
+}
+
+.contentList {
+    background-color: grey;
+    margin-top: 2%;
+    margin-left: 6%;
+    margin-right: 6%;
+    height: 100px;
+}
+
+.colorBar {
+    background-color: black;
+    color: azure;
+}
+
+
+
+/*
+Rigth Box
+*/
+
+.explainBox {
+    display: none;
+}
+
+@media (min-width:768px) {
+    .explainBox {
+        display: block;
+        background-color: grey;
+        flex-basis: 40%;
+        margin-top: 1%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+}
+
+/*
+Footer
+*/
+
+footer {
+    margin-top: 2%;
+    background-color: grey;
+    height: 50px;
+}
