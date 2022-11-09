@@ -1,0 +1,8 @@
+grineer (starchart / Eidolon / Rathumm / Empyrean )
+corpus (starchart / orbvails / index / Empyrean)
+infested (starchart / cDrift)
+Orokin 
+sentinent
+narmer (grineer / corpus / other)
+wild (Eidolon / Vails / CDrift / void / other)
+syndicates
